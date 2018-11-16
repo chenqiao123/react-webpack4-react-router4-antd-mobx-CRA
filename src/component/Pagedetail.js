@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Carousel } from 'antd';
-// import TodoListView from './calculator'
+import TodoListView from './calculator'
 import gif1 from '../asset/img/1.gif';
 import jpg12 from '../asset/img/12.jpg';
 import jpg1 from '../asset/img/1.jpg';
@@ -15,7 +15,7 @@ export function Pagedetail(params) {
     return (
     <div className="wrapper">
     列表详情页
-    {/* <TodoListView todoList={store} /> */}
+    <TodoListView />
     </div>)
     
 }
